@@ -26,5 +26,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::resource('/news', NewsController::class);
     Route::resource('/gallery', GalleriesController::class);
-    Route::resource('/gallery', EventController::class);
+    Route::resource('/event', EventController::class);
 });

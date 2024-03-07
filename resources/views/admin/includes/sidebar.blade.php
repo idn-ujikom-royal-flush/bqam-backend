@@ -22,6 +22,9 @@
                     <a href="{{ route('gallery.index') }}">
                         <i class="bi bi-circle"></i><span>Galeri</span>
                     </a>
+                    <a href="{{ route('event.index') }}">
+                        <i class="bi bi-circle"></i><span>Event</span>
+                    </a>
                 </li>
             </ul>
 
